@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        input {
+            background-color: aqua;
+            color: rgb(209, 201, 192);
+            border-radius: 6px;
+            padding: 6px 10px;
+            margin-left: 50px;
+            border: 5px solid black;
+            transform: scale(1);
+            transition-duration: 1s;
+            /* transition-behavior:allow-discrete; */
+            /* transition-property: transform;default:all */
+            transition-delay: 3s;
+            transition-timing-function:ease ;
+            transition-property: all;
+        }
+        input:focus {
+            background-color: blue;
+        }
+        input:hover {
+            border: 2px solid red;
+            transform: scale(1.1);
+        }
+        div {
+            height: 300px;
+            background-color: deeppink;
+            border: 4px solid grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            transition: all.2s;
+        }
+        div:hover {
+            border: 2px dashed black;
+        }
+        /* h1 {
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 5px solid green;
+            margin-left: 100px;
+        }
+        h1:hover {
+            border: 2px dashed pink;
+            color: aqua;
+            background-color: blueviolet;
+        } */
+    </style>
+</head>
+<body>
+    <input type="text">
+    <div>drop your files here</div>
+    <!-- <h1>drop your files</h1> -->
+</body>
+</html>

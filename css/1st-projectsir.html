@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            form {
+                width: 400px;
+                background-color: grey;
+                border-radius: 10px;
+                padding: 100px 30px 30px;
+                position: relative;
+                text-align: center;
+            }
+
+            img {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            input {
+                display: block;
+                background-color: white;
+                padding: 10px;
+                border: 1px solid black;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 8px;
+            }
+
+            button {
+                background-color: green;
+                color: white;
+                padding: 10px 30px;
+                border-radius: 8px;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <img src="nature.jpg">
+            <input type="email" placeholder="example@gmail.com">
+            <input type="password" placeholder="password">
+            <button>Login</button>
+        </form>
+    </body>
+
+</html>

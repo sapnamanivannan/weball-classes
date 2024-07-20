@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            color: orange;
+        }
+        h3 {
+            color: black;
+        }
+        h1,h2 {
+            color: aqua;
+        }
+        div p {
+            color: blue;
+        }
+        div > p {
+            color: blueviolet;
+        }
+        div ~ p {
+            color: brown;
+        }
+        div + p {
+            color: rgb(236, 40, 193);
+        }
+        .para6 {
+            color: darkgreen;
+        }
+        .para7 {
+            color: aquamarine;
+        }
+        #para8 {
+            color: deeppink;
+        }
+        input {
+            background-color: blueviolet;
+        }
+        input:hover {
+           background-color: deeppink;
+        }
+        input:focus {
+            background-color: black;
+        }
+        h1:active {
+            background-color: rgb(255, 0, 149);
+        }
+        p:active {
+            background-color: blueviolet;
+        }
+        body > p {
+            color: orangered;
+        }
+        li:nth-child(odd) {
+            color: rgb(28, 243, 74);
+        }
+        li:nth-child(even) {
+            color: rgb(232, 198, 27);
+        }
+        li:first-child {
+            color: aqua;
+        }
+        li:nth-child(4) {
+            color: black;
+        }
+        li:hover {
+            color: deeppink;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <p>paragraph 1</p>
+    <div>
+        <p>paragraph 2</p>
+        <section>
+            <p>paragraph 3</p>
+        </section>
+        <p>paragraph 4</p>
+    </div>
+    <p>paragraph 5</p>
+    <p class="para6">paragraph 6</p>
+    <p class="para7">paragraph 7</p>
+    <p id="para8">paragraph 8</p>
+    <p>paragraph 9</p>
+    <input type="text">
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li[]>
+        <li>five</li>
+        <li>six</li>
+    </ul>
+</body>
+</html>
