@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+        .card {
+            background-color: white;
+            /* height: 800px; */
+            width: 500px;
+            margin: 30px auto 0;
+            text-align: center;
+        }
+        .parent {
+            width: 500px;
+            height: 250px;
+            position: relative;
+        }
+        .baby {
+            border-radius: 50%;
+            /* margin-bottom: 50px; */
+            position: absolute;
+            /* top: 0; */
+            left: 50%;
+            transform: translate(-50%, 110%);
+        }
+        .child {
+            height: 20px;
+        }
+        .select {
+            height: 20px;
+        }
+        button {
+            width: 100%;
+            background-color: rgb(58, 185, 105);
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+        h3 {
+            /* margin-top: 20px; */
+            padding-top: 50px;
+        }
+
+        .follow {
+            background-color: rgb(251, 248, 248);
+            border-top: 1px solid grey;
+            display: flex;
+        }
+        .follow p {
+            width: 50%;
+            margin: 0;
+            padding: 10px;
+            border-right: 1px solid rgb(244, 242, 242);
+            border-left: 1px solid white;
+        }
+        .follow p:first-child {
+            border-right: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="parent" src="nature.jpg" alt=""> 
+        <!-- <br> -->
+        <img class="baby" src="nature.jpg" alt="">
+        <!-- <br>
+        <br>
+        <br>
+        <br> -->
+        <h3>Ann Lovefully</h3>
+        <p>Designer,cat lover,bookworm apple pie fanatic and nature enthusiast:)</p>
+        <h4>
+            <span><img class="child" src="location.png"> Hungry</span> 
+            <span><img class="select" src="email.png"> Send E-mail</span>
+        </h4>
+        <div class="follow">
+            <p>8,100<br/><span>Followers</span></p>
+            <p>3,650<br/><span>Following</span></p>
+        </div>
+        <button>Follow</button>
+    </div>
+</body>
+</html>

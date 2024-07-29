@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 7px;
+            color: palevioletred;
+            background-color: rgb(145, 206, 209);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="alert('Welcome to webAll-Inline')">Click Me - webAll-Inline</button>
+
+    <button id="internalBtn">Click Me - Internal</button>
+    <button id="externalBtn">Click Me - External</button>
+    <script>
+        document.getElementById('internalBtn').addEventListener('click',function() {
+            alert('Welcome to weball - Internal!')
+        })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>

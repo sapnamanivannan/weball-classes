@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Optgroup Example</title>
+    <style>
+        select {
+            background-color: #f0f8ff;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        optgroup {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="fruits">Choose a fruit:</label>
+        <select id="fruits" name="fruits">
+            <optgroup label="Citrus">
+                <option value="orange">Orange</option>
+                <option value="lemon">Lemon</option>
+                <option value="lime">Lime</option>
+            </optgroup>
+            <optgroup label="Berries">
+                <option value="strawberry">Strawberry</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="raspberry">Raspberry</option>
+            </optgroup>
+            <optgroup label="Tropical">
+                <option value="mango">Mango</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="banana">Banana</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
