@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p:not(.a) {
+            color: blue;
+        } */
+         /* p::first-letter {
+            color: chartreuse;
+         }
+         p::first-line {
+            color: rgb(219, 23, 144);
+         }
+         p::after {
+            content:"Read more";
+         }
+         p::before {
+            content:"Note";
+         }
+         p:nth-of-type(1) {
+            color: red;
+         } */
+         p {
+            font-variant:small-caps;
+        }
+         /* p {
+            font-variant:  small-caps;
+        } */
+
+        span {
+            font-variant: small-caps;
+        }
+        p {
+            font-size-adjust: 0.5;
+        }
+        h1 {
+            letter-spacing: 3px; /* Adds 2 pixels of space between characters */
+        }
+        p {
+            word-spacing: 2px; 
+        }
+        h1 {
+            background-clip: text;
+            color: transparent; /* This makes the text transparent so the background shows through */
+            background-image: url('nature.jpg');
+        }
+        div {
+            z-index: 20;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim inventore nisi autem accusamus error itaque eum in quia blanditiis voluptatum, ipsam voluptate corporis accusantium explicabo dolores iste quam distinctio unde.</p>
+    <p class="a">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim inventore nisi autem accusamus error itaque eum in quia blanditiis voluptatum, ipsam voluptate corporis accusantium explicabo dolores iste quam distinctio unde.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim inventore nisi autem accusamus error itaque eum in quia blanditiis voluptatum, ipsam voluptate corporis accusantium explicabo dolores iste quam distinctio unde.</p>
+
+    <div>Good Morning</div>
+    <span>hi</span>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .example {
+            width: 200px;
+            height: 200px;
+            border: 10px solid #000;
+            padding: 20px;
+            background-image: url('nature.jpg');
+        }
+
+        .border-box-example {
+            background-origin: border-box;
+        }
+
+        .padding-box-example {
+            background-origin: padding-box;
+        }
+
+        .content-box-example {
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="example border-box-example">Border Box</div>
+    <div class="example padding-box-example">Padding Box</div>
+    <div class="example content-box-example">Content Box</div>
+</body>
+</html>
