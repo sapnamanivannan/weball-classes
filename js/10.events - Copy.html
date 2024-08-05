@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+</head>
+
+<body>
+  <h1>Events</h1>
+  <button id="btn">Say Hi</button>
+  <p id="para1">Para 1</p>
+  <p id="para2">Para 2</p>
+
+  <script>
+    document.getElementById('btn').addEventListener('click', function () {
+      // log is a method/function of console object
+      console.log();
+    })
+
+    document.title = "Events + DOM"
+    document.getElementById('para1').innerText = "<u>Para 1 - Updated</u>"
+    document.getElementById('para2').innerHTML = "<u>Para 2 - Updated</u>"
+
+    // title is a property of document object
+    console.log(document.title)
+  </script>
+</body>
+
+</html>
