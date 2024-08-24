@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form</title>
+    <link rel="stylesheet" href="survey-form.css">
+</head>
+<body>
+    <form>
+        <h1>Survey Form</h1>
+        <p>User stories survey form</p>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Name">
+            <br>
+            <label>E-mail:</label>
+            <input type="text" placeholder="Enter E-mail">
+            <br>
+            <label>Work Experience:</label>
+            <input type="text" placeholder="Enter Number">
+            <br>
+            <label for="real estate">Are you comfortabke in investing in real estate
+                 on platform without first investigating properly</label>
+            <!-- <input type="text" > -->
+            <select id="real estate" name="real estate">
+                <option value="yes">Yes</option>
+                <option value="no">NO</option>
+            </select>
+            <br>
+            <label>Suggestions to build trusted platform</label>
+            <textarea name="sug" id="sug" rows="5" cols="15"></textarea>
+            <br>
+            <label>You are ready to invesrt in: </label>
+           <p><input type="checkbox" >Real Estate</p>
+           <p><input type="checkbox" >Mutual Funds</p>
+           <p><input type="checkbox" >Crypto Currency</p>
+           <p><input type="checkbox" >Stocks & Bonds</p>
+           <label for="">Are you ready for further contact</label>
+           <input type="radio" name="subject">
+           <label for="yes">Yes</label>
+           <input type="radio" name="subject">
+           <label for="no">No</label>
+           <button>Submit</button>
+    </form>
+</body>
+</html>

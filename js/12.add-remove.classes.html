@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Remove</title>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Add/Remove Classes</h1>
+    <button id="btnAdd">Add Classes</button>
+    <button id="btnRemove"> Remove Classes</button>
+    <button id="btnToggle">Toggle Classes</button>
+    <script>
+        let headingEl = document.getElementById('heading');
+        let btnAddEl = document.getElementById('btnAdd');
+        let btnRemoveEl = document.getElementById('btnRemove');
+        let btnToggleEl = document.getElementById('btnToggle');
+
+        btnAddEl.addEventListener('click', function () {
+            headingEl.classList.add('red');
+        })
+        btnRemoveEl.addEventListener('click', function () {
+            headingEl.classList.remove('red');
+        })
+        btnToggleEl.addEventListener('click', function () {
+            headingEl.classList.toggle('red');
+        })
+    </script>
+</body>
+</html>

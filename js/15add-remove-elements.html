@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Remove elements</title>
+</head>
+<body>
+    <h1 id="heading">Add/Remove elements</h1>
+    <button id="btnAdd">Add Element</button>
+    <button id="btnRemove">Remove Element</button>
+
+    <script>
+        let btnAddEl = document.getElementById('btnAdd');
+        let btnRemovEl = document.getElementById('btnRemove');
+        
+        btnAddEl.addEventListener('click',function() {
+            let newEl = document.createElement('h2');
+            newEl.innerText = "Heading 2";
+            document.body.appendChild(newEl);
+        })
+        btnRemovEl.addEventListener('click',function() {
+            let headingEl = document.getElementById('heading');
+            heading.remove();
+        })
+    </script>
+</body>
+</html>

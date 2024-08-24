@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+.page {
+    max-width: 800px;
+    background-color: rgba(231, 227, 227, 0.475);
+    margin: 50px auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.start {
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: rgb(220, 217, 217);
+}
+.sign {
+    border: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    background-color: rgb(44, 127, 215);
+    color: white;
+    padding: 3px 5px;
+}
+.content {
+    text-align: center;
+    background-image: url(sea.png);
+    padding-top: 100px;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 100px 100px 20px 100px ;
+   }
+.content p {
+    font-size: xx-large;
+    color: white;
+    /* margin: 100px 100px 0 100px; */
+    margin-bottom: 20px;
+}
+.content input {
+    padding: 5px 80px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom:100px ;
+}
+.content button {
+    padding: 5px 30px;
+    border-radius: 2px;
+    border: none;
+}
+.props {
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+    margin-top: 50px;
+}
+.fully img {
+    width:50px;
+    margin-bottom: 10px;
+}
+.fully h4 {
+    margin-bottom: 10px;
+}
+.fully {
+    width: 30%;
+    text-align: center;
+}
+.boot img {
+    margin-bottom: 10px;
+    width: 50px;
+}
+.boot h4 {
+    margin-bottom: 10px;
+}
+.boot {
+    width: 30%;
+    text-align: center;
+}
+.easy img {
+    margin-bottom: 10px;
+    width: 50px;
+}
+.easy h4 {
+    margin-bottom: 10px;
+}
+.easy {
+    width: 30%;
+    text-align: center;
+}
+.items img {
+    /* display: flex; */
+    /* width: 50px; */
+}
+.items h4 {
+    /* display: inline; */
+}
+.items p {
+    /* display: inline; */
+}

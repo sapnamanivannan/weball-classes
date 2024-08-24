@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add/Remove Attributes</title>
+    </head>
+
+    <body>
+        <h1 id="heading">Add/Remove Attributes</h1>
+        <button id="btnAdd">Add Attribute 'title'</button>
+        <button id="btnRemove">Remove Attribute 'title'</button>
+
+        <script>
+            let headingEl = document.getElementById('heading');
+            let btnAddEl = document.getElementById('btnAdd');
+            let btnRemoveEl = document.getElementById('btnRemove');
+
+            btnAddEl.addEventListener('click', function () {
+                headingEl.setAttribute('title', 'This is a heading')
+            })
+            btnRemoveEl.addEventListener('click', function () {
+                headingEl.removeAttribute('title');
+            })
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Remove Styles</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Add/Remove Styles</h1>
+    <button id="btnAdd">Update Styles</button>
+    <script>
+        let headingEl = document.getElementById('heading');
+        let btnAddEl = document.getElementById('btnAdd');
+
+        btnAddEl.addEventListener('click', function () {
+            headingEl.style.color = "blue";
+            headingEl.style.backgroundColor = "yellow";
+            headingEl.style.fontSize ="50px";
+            headingEl.style.textDecoration ="underline";
+        })
+        
+    </script>
+</body>
+</html>

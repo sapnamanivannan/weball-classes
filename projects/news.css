@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 210, 210);
+}
+.website {
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgb(208, 207, 212);
+}
+header {
+    background-color: rgb(186, 18, 18);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+header p {
+    color: lightgray;
+}
+.btn {
+    text-align: center;
+    margin-top: 8px;
+}
+button {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    /* text-align: center; */
+    /* padding: 5px; */
+}
+.virus {
+    max-width: 46%;
+    max-height: 300px;
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    border-radius: 5px;
+    background-color: white;
+}
+.virus img {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    background-color: black;
+}
+.virus button {
+    background-color: rgb(186, 18, 18) ;
+    color: white;
+    padding: 5px 20px;
+}
+.apple {
+    max-width: 46%;
+    max-height: 300px;
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    /* margin-right: 20px; */
+    background-color: white;
+}
+.apple p {
+    min-height: 59px;
+}
+.apple img {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+}
+.apple button {
+    background-color: rgb(186, 18, 18) ;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    align-items: flex-start;
+    /* margin-top: 45px; */
+}
